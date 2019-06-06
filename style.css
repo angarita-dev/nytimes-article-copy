@@ -63,6 +63,7 @@ table {
     border-bottom: 1px solid rgb(182, 182, 182);
     flex-direction: row;
     justify-content: space-between;
+    z-index: 1;
 }
 
 .nav-link{
@@ -107,7 +108,10 @@ table {
 
 header{
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
 }
+
 
 .title {
     position: relative;
@@ -120,9 +124,34 @@ header{
     font-style: italic;
     font-size: 2.5rem;
     line-height: 3rem;
+    margin-bottom: 30px; 
 }
 
 .header-img {
     width: 945px;
     height: auto;
+    align-self: center;
+}
+
+.header-img-figcaption {
+    margin-top: 10px; 
+    align-self: center;
+    width: 945px;
+}
+
+.img-caption {
+    align-self: flex-start;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: rgb(102, 102, 102);
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+}
+
+.img-caption-sub {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    align-self: flex-start;
+    color: #888;
+    font-size: 13px;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
