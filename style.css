@@ -554,6 +554,9 @@ li {
 li a{
     text-decoration: none;
 }
+li a:visited {
+    color: rgb(153, 153, 153);
+}
 
 li a:hover{
     text-decoration: underline;
