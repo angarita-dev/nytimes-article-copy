@@ -181,6 +181,7 @@ header{
 }
 
 .main-article {
+    clear: left;
     position: relative;
     left: 30%;
     margin-right: 0;
@@ -377,4 +378,88 @@ header{
 
 .column-subscribe{
     border-left: 1px solid rgb(226, 226, 226);
+}
+
+.aside-title {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(226, 226, 226);
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+}
+
+.right-aside {
+    position: relative;
+    float: right;
+    max-width: 210px;
+    right: 5%;
+}
+
+.rightside-article-img{
+    height: 75px;
+    width: 75px;
+}
+
+.rightside-article {
+    clear: right;
+    margin-bottom: 15px;
+    max-height: 104px;
+    padding: 4% 5% 0; 
+}
+
+.paid-post {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    font-family: 'Source Sans Pro',sans-serif;
+    background: #F6F6F6;
+    height: 116px;
+}
+
+.rightside-article-link {
+    font-weight: 500;
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+    width: calc(100% - 85px);
+    margin: auto 0px auto 10px;
+    font-family: nyt-cheltenham-small, georgia, "times new roman";
+    position: relative;
+    float: right;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.paid-post-title {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #000000;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 2px;
+}
+
+.paid-post-link {
+    text-decoration: none;
+    font-size: 10px;
+    line-height: 15px;
+    font-family: 'Source Sans Pro',sans-serif;
+    color: #121212;
+    height: 45px;
+}
+
+.paid-post-text-container {
+    margin: 10px 2px 0;
+    position: relative;
+    float: right;
+    width: 115px;
+}
+
+.paid-post-img {
+    margin: 10px 11px 0;
 }
