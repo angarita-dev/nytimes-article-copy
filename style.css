@@ -339,9 +339,9 @@ header{
 }
 
 .bottom-nav-container{
-    padding: 2% 6% 0;
+    margin: 0 10%;
     width: 80%;
-    height: 100px;
+    height: 197px;
 }
 
 .bottom-nav-spacer{
@@ -351,6 +351,9 @@ header{
     display: block;
     height: 1px;
     margin-bottom: 5px;
+    margin-top: 2px;
+    width: 80%;
+    margin-left: 10%;
 }
 
 .nav-home-link{
@@ -373,10 +376,11 @@ header{
 }
 
 .column-list{
-    margin-top: 11px; 
+    margin-top: 18px; 
 }
 
 .column-subscribe{
+    margin-top: 7px;
     border-left: 1px solid rgb(226, 226, 226);
 }
 
@@ -547,6 +551,14 @@ li {
     line-height: 16px;
 }
 
+li a{
+    text-decoration: none;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
 .column-subscribe h3 {
     margin-left: 15px;
 }
@@ -557,7 +569,7 @@ li {
     font-family: nyt-franklin;
     text-transform: capitalize;
     width: 150px;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 700;
     height: 25px;
     line-height: 15px;
@@ -566,3 +578,27 @@ li {
     margin-left: 15px;
 }
 
+.nav-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2% 10% 0;
+    width: 80%;
+    border-top: 1px solid rgb(235, 235, 235);
+}
+
+.nav-footer-links {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    color: rgb(153, 153, 153);
+    font-size: 11px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.nav-footer nav {
+    padding: 10px 0;
+}
+
+.nav-footer-links:hover {
+    text-decoration: underline;
+}
