@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -338,9 +338,21 @@ header{
     left: 45%;
 }
 
+.bottom-nav-container {
+    margin: 0 10%;
+    width: 80%;
+<<<<<<< HEAD
+<<<<<<< HEAD
 .bottom-nav-container{
     margin: 0 7.5%;
     width: 85%;
+=======
+=======
+>>>>>>> fontawesome
+.bottom-nav-container {
+    margin: 0 10%;
+    width: 80%;
+>>>>>>> fontawesome
     height: 197px;
 }
 
@@ -369,8 +381,17 @@ header{
     text-decoration: none;
 }
 
+.nav-column {
+<<<<<<< HEAD
+<<<<<<< HEAD
 .nav-column{
     position: relative;
+=======
+.nav-column {
+>>>>>>> fontawesome
+=======
+.nav-column {
+>>>>>>> fontawesome
     float: left;
     width: 16.65%;
 }
