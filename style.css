@@ -295,7 +295,7 @@ header {
 }
 
 .social-icons-title {
-    margin-left: 60%;
+    margin-left: 50%;
     align-self: center;
 }
 
@@ -773,4 +773,38 @@ li a:hover {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+}
+
+.nav-subscribe-link i{
+    background: none;
+    padding: 0;
+    margin-right: 5px;
+}
+
+.nav-subscribe-link {
+    font-size: 14px;
+}
+
+.nav-subscribe-sub-link {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: nyt-franklin;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 11px;
+    font-weight: 500;
+    height: 23px;
+    line-height: 21px;
+}
+
+.nav-subscribe-bottom-bar {
+    border-top: 1px solid rgb(226, 226, 226);
+    content: "";
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width: 197px;
+}
+
+.column-subscribe ul {
+    margin-bottom: 10px;
 }
