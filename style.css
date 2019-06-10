@@ -306,8 +306,11 @@ header{
     text-size-adjust: 100%;
 }
 
-i
-{
+.social-icons::after {
+    text-decoration: none;
+}
+
+i {
     background-color: #f6f6f6;
     border-radius: 50%;
     border: 1x solid grey;
@@ -328,13 +331,13 @@ i
     overflow: hidden;
 }
 
-.bottom-spacer{
+.bottom-spacer {
     width: 100%;
     height: 40px;
     clear: both;
 }
 
-.bottom-ad{
+.bottom-ad {
     display: flex;
     flex-direction: row;
     position: fixed;
@@ -346,25 +349,25 @@ i
     border-top: 1px solid rgb(0,0,0);
 }
 
-.bottom-ad p{
+.bottom-ad p {
     align-self: center;
     position: relative;
     left: 30%;
 }
 
-.bottom-ad img{
+.bottom-ad img {
     align-self: center;
     position: relative;
     left: 45%;
 }
 
-.bottom-nav-container{
+.bottom-nav-container {
     margin: 0 10%;
     width: 80%;
     height: 197px;
 }
 
-.bottom-nav-spacer{
+.bottom-nav-spacer {
     border-bottom: 1px solid rgb(226, 226, 226);
     border-top: 2px solid rgb(226, 226, 226);
     content: "";
@@ -376,7 +379,7 @@ i
     margin-left: 10%;
 }
 
-.nav-home-link{
+.nav-home-link {
     display: block;
     position: relative;
     float: right;
@@ -389,17 +392,17 @@ i
     text-decoration: none;
 }
 
-.nav-column{
+.nav-column {
     float: left;
     width: 16.65%;
     height: 150px;
 }
 
-.column-list{
+.column-list {
     margin-top: 18px; 
 }
 
-.column-subscribe{
+.column-subscribe {
     margin-top: 7px;
     border-left: 1px solid rgb(226, 226, 226);
 }
