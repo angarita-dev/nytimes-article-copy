@@ -6,7 +6,7 @@ This is the second project of the Main HTML/CSS curriculum at [Microverse](https
 
 #### [Assignment link](https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements)
 
-#### [View in broswer](https://rawcdn.githack.com/codingAngarita/nytimes-article-copy/ec2303da7345dcdf7197555ce67ec595d2b31338/index.html)
+#### [View in broswer](https://rawcdn.githack.com/codingAngarita/nytimes-article-copy/0c8ab1f7eb9d3b9b2bcae3316470a5bd62b9938b/index.html)
 
 #### Live ScreenShot of the page
 ![ScreenShot] (resources/microversenytspaceripples.png)
