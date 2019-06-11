@@ -9,7 +9,7 @@ This is the second project of the Main HTML/CSS curriculum at [Microverse](https
 #### [View in broswer](https://rawcdn.githack.com/codingAngarita/nytimes-article-copy/0c8ab1f7eb9d3b9b2bcae3316470a5bd62b9938b/index.html)
 
 #### Live ScreenShot of the page
-![ScreenShot] (resources/microversenytspaceripples.png)
+![ScreenShot](resources/microversenytspaceripples.png)
 
 
 #### Authors
